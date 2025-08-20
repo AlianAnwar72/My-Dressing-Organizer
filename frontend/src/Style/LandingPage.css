@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Welcome Section */
+.welcome-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.9; /* Adjust transparency */
+  }
+  
+  .welcome-content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); /*  Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .welcome-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn-get-started {
+    background-color: #007bff;
+    color: #ffffff; /* Blue text color */
+    padding: 12px 24px; /* Adjust padding for a more box-like look */
+    font-size: 16px;
+    /* Add a blue border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .btn-get-started:hover {
+    background-color: #03366c; /* Blue background on hover */
+    color: white; /* White text on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transform: translateY(-2px); /* Lift the button slightly */
+  }
+  
+  
+  
+  /* Features Section */
+  .features-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .features-section h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+  }
+  .feature-card:hover {
+    transform: translateY(-10px); /* Moves the card up by 10px */
+    transition: transform 0.8s ease; /* Adds a smooth transition effect */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Optional: Enhances the hover effect with a shadow */
+  }
+  
+  .feature-card h4 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Gallery Section */
+  .gallery-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .gallery-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-image {
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
