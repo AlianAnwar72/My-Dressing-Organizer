@@ -1,15 +1,23 @@
-# Wardrobe Manager 👗👔
+# 👗 My Dressing Organizer
 
-Wardrobe Manager is a smart MERN stack web application that helps users organize and manage clothing.  
-It tracks last worn dates, suggests outfit combinations, and enhances personal style management.  
+A **MERN stack** web application that helps users manage their wardrobe, track last worn dates, and get smart outfit suggestions.
 
-## Features
+## ✨ Features
 - Add, update, and delete clothing items  
 - Track last worn dates  
-- Outfit suggestions  
-- Wardrobe management dashboard  
+- Outfit suggestions and feedback  
+- Simple and intuitive UI  
 
-## Tech Stack
-- **Frontend**: React  
-- **Backend**: Node.js, Express  
-- **Database**: MongoDB  
+## 🛠 Tech Stack
+- React, Node.js, Express, MongoDB  
+
+## 🚀 Setup
+```bash
+git clone https://github.com/AlianAnwar72/My-Dressing-Organizer.git
+cd My-Dressing-Organizer
+
+# Backend
+cd backend && npm install && npm start
+
+# Frontend
+cd ../frontend && npm install && npm start
